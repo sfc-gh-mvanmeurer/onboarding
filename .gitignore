@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cursor
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# PDF source files (keep exports)
+*.pdf
+
+# SQL test files
+test.sql
