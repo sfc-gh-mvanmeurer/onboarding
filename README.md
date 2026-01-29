@@ -127,22 +127,6 @@ CREATE ACCOUNT acme_prod_analytics
   COMMENT = 'Production Business Critical account in Azure US East 2';
 ```
 
-#### Create Business Critical Account (More Secure - RSA Key)
-```sql
-USE ROLE ORGADMIN;
-
-CREATE ACCOUNT acme_prod_analytics
-  ADMIN_NAME = 'svc_prod_admin'
-  ADMIN_RSA_PUBLIC_KEY = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...'
-  ADMIN_USER_TYPE = SERVICE
-  FIRST_NAME = 'Production'
-  LAST_NAME = 'ServiceAccount'
-  EMAIL = 'snowflake-prod-alerts@yourcompany.com'
-  EDITION = BUSINESS_CRITICAL
-  REGION = 'azure_eastus2'
-  COMMENT = 'Production Business Critical analytics account';
-```
-
 #### Key Parameters
 
 | Parameter | Values | Description |
