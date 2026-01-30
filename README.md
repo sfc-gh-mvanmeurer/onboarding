@@ -1143,13 +1143,6 @@ ALTER ACCOUNT SET RESOURCE_MONITOR = ACCT_MONTHLY_RM;
 | Query history | `SELECT * FROM TABLE(INFORMATION_SCHEMA.QUERY_HISTORY())` |
 | Account parameters | `SHOW PARAMETERS IN ACCOUNT;` |
 
-### Business Critical Pricing Reference
-
-| Item | Cost (Approximate) |
-|------|-------------------|
-| **Compute Credits** | ~$4.00/credit (varies by region) |
-| **Storage** | ~$40/TB/month |
-| **Data Transfer** | Varies by cloud/region |
 
 ### Important URLs
 
